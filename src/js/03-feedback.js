@@ -24,6 +24,7 @@ function onFormSubmit(e) {
     e.target.reset();
     localStorage.removeItem(STORAGE_KEY);
     
+    console.log(formData);
 }
 
 function onTextareaInput(e) {
